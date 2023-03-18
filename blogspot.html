@@ -2,13 +2,14 @@
 <html>
 <head>
     <meta charset='utf-8'>
+    
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Welcome hyperblog 2.0</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='css/estilos.css'>
    
 </head>
-<body>
+<body><font size="2">
 
     <div id="container">
         <div id="cabecera">
@@ -18,10 +19,23 @@
             <div id="post">
             <h1>Empezamos a aprender git y github.</h1>
             <p>Aca al est&aacute; los apuntes sobre el curso de Git y GitHub con Freedie. </p>
-            
+            <h1>NOTAS: .GitIgnore</h1>
+            <p>Ignorar archivos para no subirlos al repositorio (.gitignore)
+                Por diversas razones, no todos los archivos que agregas a un proyecto deber&iacute;an guardarse en un repositorio, &eacute;sto porque hay archivos que no todo el mundo deber&iacute;a de ver, y hay archivos que al estar en el repositorio alentan el proceso de desarrollo (por ejemplo los binary large objects, blob, que se tardan en descargarse).
+                
+                Que no se suban estos archivos no deseados se puede crear un archivo con el nombre .gitignore en la ra&iacute;z del repositorio con las reglas para los archivos que no se deber&iacute;an subir (ver [sintaxis de los <a href="https://git-scm.com/docs/gitignore" cite="https://git-scm.com/docs/gitignore">.gitignore</a>).</p>
+                
+                <p>Las razones principales para tomar la decisión de no agregar un archivo a un repositorio son:</p>
+                
+                
+            <ul ><li>Es un archivo con contrase&ntilde;as (normalmente con la extensi&oacute;n .env)</li>
+                <li>Es un blob (binary large object, objeto binario grande), mismos que son dif&iacute;ciles de gestionar en git.</li>
+                <li>Archivos que se generan corriendo comandos, por ejemplo la carpeta node_modules que genera npm al correr el comando npm install</li> </ul>
+                <p><img src="imagenes/gitignore.jpg" width="100%"/></p>
         </div>
         <div id="footer">
             Hecho con amor en Platzi &lt;3
             </div>
     </div>
+</font></body>
 </html>
