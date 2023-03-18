@@ -10,7 +10,7 @@ body
 }
 #cabecera
 {
-    background: rgb(0, 255, 242);
+    background: #37488b;
     box-shadow: 0 2px 20px 0 rgba(0,0,0,.75);
     color: rgb(211, 7, 7);
     font-weight: 700;
@@ -44,7 +44,7 @@ background-color: aliceblue;
 }
 #footer
 {
-    background: #777;
+    background: #37488b;
     color: white;
     text-align: center;
     padding: 0.5em;
