@@ -6,10 +6,10 @@ Un blog increible para el curso de Git y Github de platzi
 > - Vamos con todo
 
 En este curso vemos de todo:
-*Todos los comandos de Git
-*El flujo de trabajo en GitHub
-*Las buenas practicas con el codigo
-*Contiene imagenes Explicativas por tema
-*Una gran experiencia
+* Todos los comandos de Git
+* El flujo de trabajo en GitHub
+* Las buenas practicas con el codigo
+* Contiene imagenes Explicativas por tema
+* Una gran experiencia
 
 **Este Readme.md va a seguir actualizandose**
