@@ -9,5 +9,7 @@ En este curso vemos de todo:
 *Todos los comandos de Git
 *El flujo de trabajo en GitHub
 *Las buenas practicas con el codigo
+*Contiene imagenes Explicativas por tema
+
 
 **Este Readme.md va a seguir actualizandose**
